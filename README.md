@@ -34,7 +34,7 @@ const provider = new providers.JsonRpcProvider(
 
 const { contractAddress } = exchanges.latest('ETC')
 
-const exchange = Atlas__factory.connect(contractAddress, provider)
+const exchange = Exchange__factory.connect(contractAddress, provider)
 
 exchange.treasury().then(console.log)
 ```
