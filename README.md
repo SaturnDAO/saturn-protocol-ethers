@@ -25,7 +25,7 @@ Installation:
 
 ```ts
 import { providers } from 'ethers'
-import { Exchange__factory, exchanges } from 'saturn-protocol-dione'
+import { Exchange__factory, exchanges } from 'saturn-protocol-ethers'
 
 const provider = new providers.JsonRpcProvider(
   'https://ethercluster.com/etc',
